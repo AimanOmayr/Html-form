@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+        <h1>Student Registration Form</h1></legend>
+        <label for="">Enter your name:</label> <input placeholder="Enter your name" type="text"><br><br>
+        <label for="">Enter your Father's name:</label> <input placeholder="Enter your Father's name" type="text"><br><br>
+        <label for="">Enter your Email:</label> <input placeholder="Enter your Email" type="text"><br><br>
+        <label for="">Enter your Password:</label> <input maxlength="10" placeholder="Enter your Password" type="password"><br><br>
+        <label for="">Enter your Contact No:</label> <input placeholder="Enter your Contact No" type="number"><br><br>
+        <label for="">Bio:</label><textarea cols="45" rows="2" placeholder="Describe your Bio-data"></textarea><br><br>
+        <fieldset>
+            <legend>Gender:</legend>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio" name="Gender" value="Female">Female<br>
+        <input type="radio" name="Gender" value="Other">Other<br>
+        </fieldset>
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" name="Interests" id="Music"><label for="">Music</label><br>
+            <input type="checkbox" name="Interests" id="Sports"><label for="">Sports</label><br>
+            <input type="checkbox" name="Interests" id="Reading"><label for="">Reading</label><br>
+        </fieldset>
+            <label for="">Country:</label>
+           <select>
+            <option value="Pak">Pakistan</option>
+            <option value="US">United States</option>
+            <option value="Ind">India</option>
+            <option value="U.K">United Kingdom</option>
+            <option value="Saudia">SaudiArabia</option>
+            <option>U.A.E</option>
+        </Select><br><br>
+            <p>Select your Profile Picture:
+            <input type="file" name="Profile Picture"></p>
+        <Label for="">Birthday:</Label><input placeholder="calender" type="date"><br><br>
+        <p>Choose your Subject:
+        <input type="checkbox" name="Subject" value="Eng" checked>English
+        <input type="checkbox" name="Subject" value="Urdu">Urdu
+        <input type="checkbox" name="Subject" value="Sci">Science
+        <input type="checkbox" name="Subject" value="Maths">Maths </p>
+       <label for="">Search:</label> <input type="search"><br><br>
+       <label for="">Website:</label> <input type="text"><br><br>
+       <button>Submit</button>
+       </fieldset>
+    </form>
+</body>
